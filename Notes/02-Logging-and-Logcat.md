@@ -1,26 +1,6 @@
 # Logging and Logcat in Android
 
-## 1. Renaming variables properly
-
-When a variable or resource is used in many places, renaming it manually can cause mistakes.
-
-Android Studio provides a safer option:
-
-```text
-Refactor > Rename
-```
-
-Shortcut:
-
-```text
-Shift + F6
-```
-
-This changes the name everywhere it is used in the project.
-
----
-
-## 2. What is Logcat?
+## 1. What is Logcat?
 
 Logcat is the console used to view messages from an Android app while it is running.
 
@@ -35,7 +15,7 @@ It is useful for checking:
 These messages are shown in Android Studio, not on the phone screen.
 ---
 
-## 3. Importing Log
+## 2. Importing Log
 
 To use logging, import:
 
@@ -44,7 +24,7 @@ import android.util.Log
 ```
 ---
 
-## 4. TAG
+## 3. TAG
 
 A `TAG` is a label used to identify where a log message came from.
 
@@ -63,7 +43,7 @@ Log.d(TAG, "Button clicked")
 The tag helps filter messages in Logcat.
 ---
 
-## 5. Log levels
+## 4. Log levels
 
 ```
 
@@ -80,7 +60,7 @@ For normal debugging, `Log.d()` is commonly used.
 
 ---
 
-## 6. Structure of a log message
+## 5. Structure of a log message
 
 ```kotlin
 Log.d(TAG, "Button clicked")
