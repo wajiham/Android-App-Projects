@@ -5,7 +5,7 @@
 This is the final home screen created in this part of the lab.
 
 <p align="center">
-  <img src="images/HomeScreen.png" alt="Sports Tracker Home Screen" width="300">
+  <img src="./HomeScreen.png" alt="Sports Tracker Home Screen" width="300">
 </p>
 
 ---
