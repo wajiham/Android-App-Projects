@@ -2,7 +2,7 @@
 
 ## Final Home Screen
 
-This is the final home screen created in this part of the lab.
+This is the final home screen created in this part.
 
 <p align="center">
   <img src="./HomeScreen.png" alt="Sports Tracker Home Screen" width="300">
